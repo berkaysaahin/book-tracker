@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import FunkyButton from "./funkyButton";
 
-const frames = ["/public/standing.svg", "/public/pointing-right.svg"];
+const frames = ["/standing.svg", "/pointing-right.svg"];
 
 export default function Navbar() {
   const [frameIndex, setFrameIndex] = useState(0);
@@ -15,7 +15,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="w-full h-[70px] bg-primary border-b-[3px] border-black m-0 px-10 items-center justify-between gap-10 flex flex-row">
+    <div className="w-full h-[70px] bg-primary border-b-[4px] border-black m-0 px-10 items-center justify-between gap-10 flex flex-row">
       <h1 className="text-black text-center text-2xl">Your own book bud!!</h1>
       <nav className="flex gap-4">
         <FunkyButton label={"Home"} />
