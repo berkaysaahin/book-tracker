@@ -1,9 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  font-family:  "Press Start 2P",system-ui;
-  line-height: 1.5;
-  font-weight: 400;
+  font-family:  "Inconsolata",system-ui;
+  line-height: 1;
+  font-weight: 800;
+  font-size: large;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -14,12 +15,13 @@
 }
 
 @theme {
-  --color-primary: #093fb4;
+  --color-primary: #b0cde3;
   --color-secondary: #DED3C4;
-  --color-background: #FEEBF6;
-  --color-text: #eeeeee;
+  --color-background: #737577;
+  --color-complementary: #4f5151;
+  --color-text: #ccbe80;
   --color-dark-text: #000000;
-  --color-accent: #ed3500;
+  --color-accent: #3b2c27;
   --color-dark-background: #181C14;
 }
 

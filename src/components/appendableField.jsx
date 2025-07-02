@@ -25,10 +25,10 @@ export default function AppendableField({ value, onAppend }) {
     />
   ) : (
     <div
-      className="px-5 py-3 hover:bg-gray-100 cursor-pointer"
+      className="px-5 py-3 hover:bg-primary cursor-pointer bg-secondary font-bold text-xl"
       onClick={() => setIsEditing(true)}
     >
-      {value || <span className="text-gray-400 italic"></span>}
+      {value || <p className="text-gray-400 italic text-xl my-2"></p>}
     </div>
   );
 }

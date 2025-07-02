@@ -12,7 +12,7 @@ export default function RegisterNew() {
   return (
     <div className="w-full text-dark-text">
       <div
-        className="w-full h-[4rem] bg-white rounded-lg border-4 border-dark-text flex items-center justify-between px-5 cursor-pointer active:scale-[.99] select-none"
+        className="w-full h-[4rem] bg-secondary rounded-lg border-4 font-extrabold text-2xl border-dark-text flex items-center justify-between px-5 cursor-pointer active:scale-[.99] select-none"
         onClick={() => setIsOpen(!isOpen)}
       >
         <span>Register new book </span>
